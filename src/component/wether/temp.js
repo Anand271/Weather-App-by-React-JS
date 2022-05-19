@@ -46,10 +46,11 @@ const Temp = () => {
 
     return (
         <>
+
             <div className='wrap'>
                 <div className='search'>
                     <input type="search"
-                        placeholder="search..."
+                        placeholder="Enter any city name in world"
                         autoFocus
                         id="search"
                         className="searchTerm"
@@ -59,8 +60,13 @@ const Temp = () => {
                     <button className="searchButton" type="button" onClick={getWeatherInfo}>
                         Search
                     </button>
+
                 </div>
+                <p>Enter any city Name of world</p>
+
             </div>
+
+            
 
             {/* our temp card */}
 
